@@ -1,0 +1,14 @@
+Urban Nexus Construction — Full Width QA Report
+
+{"file": "about.html", "before": {"img_tags": 1, "data_images": 1, "forms": 0}, "after": {"img_tags": 1, "data_images": 1, "forms": 0}, "images_preserved": true, "data_images_preserved": true}
+{"file": "blog.html", "before": {"img_tags": 3, "data_images": 2, "forms": 0}, "after": {"img_tags": 3, "data_images": 2, "forms": 0}, "images_preserved": true, "data_images_preserved": true}
+{"file": "contact.html", "before": {"img_tags": 0, "data_images": 1, "forms": 1}, "after": {"img_tags": 0, "data_images": 1, "forms": 1}, "images_preserved": true, "data_images_preserved": true}
+{"file": "financing-disclaimer.html", "before": {"img_tags": 0, "data_images": 0, "forms": 0}, "after": {"img_tags": 0, "data_images": 0, "forms": 0}, "images_preserved": true, "data_images_preserved": true}
+{"file": "financing.html", "before": {"img_tags": 1, "data_images": 0, "forms": 0}, "after": {"img_tags": 1, "data_images": 0, "forms": 0}, "images_preserved": true, "data_images_preserved": true}
+{"file": "index.html", "before": {"img_tags": 15, "data_images": 2, "forms": 1}, "after": {"img_tags": 15, "data_images": 2, "forms": 1}, "images_preserved": true, "data_images_preserved": true}
+{"file": "privacy-policy.html", "before": {"img_tags": 0, "data_images": 0, "forms": 0}, "after": {"img_tags": 0, "data_images": 0, "forms": 0}, "images_preserved": true, "data_images_preserved": true}
+{"file": "projects.html", "before": {"img_tags": 9, "data_images": 3, "forms": 1}, "after": {"img_tags": 9, "data_images": 3, "forms": 1}, "images_preserved": true, "data_images_preserved": true}
+{"file": "reviews.html", "before": {"img_tags": 7, "data_images": 1, "forms": 0}, "after": {"img_tags": 7, "data_images": 1, "forms": 0}, "images_preserved": true, "data_images_preserved": true}
+{"file": "services.html", "before": {"img_tags": 10, "data_images": 2, "forms": 1}, "after": {"img_tags": 10, "data_images": 2, "forms": 1}, "images_preserved": true, "data_images_preserved": true}
+{"file": "terms.html", "before": {"img_tags": 0, "data_images": 0, "forms": 0}, "after": {"img_tags": 0, "data_images": 0, "forms": 0}, "images_preserved": true, "data_images_preserved": true}
+{"file": "thank-you.html", "before": {"img_tags": 0, "data_images": 0, "forms": 0}, "after": {"img_tags": 0, "data_images": 0, "forms": 0}, "images_preserved": true, "data_images_preserved": true}
