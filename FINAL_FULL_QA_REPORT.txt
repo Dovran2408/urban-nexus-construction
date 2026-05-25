@@ -1,0 +1,26 @@
+Urban Nexus Construction — FINAL FULL QA REPORT
+
+STATUS: PASS
+HTML pages checked: 12
+Blockers: 0
+Warnings: 0
+
+BLOCKERS:
+None
+
+WARNINGS:
+None
+
+PAGE SUMMARY:
+index.html: imgs=15, data=2, forms=1, file://=0, local_folder=0, title=True, meta=True
+services.html: imgs=10, data=10, forms=1, file://=0, local_folder=0, title=True, meta=True
+projects.html: imgs=9, data=6, forms=1, file://=0, local_folder=0, title=True, meta=True
+about.html: imgs=1, data=1, forms=0, file://=0, local_folder=0, title=True, meta=True
+reviews.html: imgs=7, data=1, forms=0, file://=0, local_folder=0, title=True, meta=True
+financing.html: imgs=1, data=0, forms=0, file://=0, local_folder=0, title=True, meta=True
+blog.html: imgs=3, data=2, forms=0, file://=0, local_folder=0, title=True, meta=True
+contact.html: imgs=0, data=1, forms=1, file://=0, local_folder=0, title=True, meta=True
+privacy-policy.html: imgs=0, data=0, forms=0, file://=0, local_folder=0, title=True, meta=True
+terms.html: imgs=0, data=0, forms=0, file://=0, local_folder=0, title=True, meta=True
+financing-disclaimer.html: imgs=0, data=0, forms=0, file://=0, local_folder=0, title=True, meta=True
+thank-you.html: imgs=0, data=0, forms=0, file://=0, local_folder=0, title=True, meta=True
