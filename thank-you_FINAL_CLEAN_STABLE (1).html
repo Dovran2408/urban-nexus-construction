@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><title>Request Received | Urban Nexus Construction</title><style>*{box-sizing:border-box;margin:0;padding:0}body{font-family:Arial,Helvetica,sans-serif;background:#0D1114;color:#121212;line-height:1.7}.site{max-width:1180px;margin:0 auto;background:#fff;box-shadow:0 30px 80px rgba(0,0,0,.35)}.topbar{background:#030506;color:#f4f4f5;font-size:11px;padding:8px 40px;display:flex;justify-content:space-between}.header{background:#fff;border-bottom:1px solid #e5e7eb;padding:20px 40px;display:flex;align-items:center;justify-content:space-between}.logo-main{font-size:32px;font-weight:900;line-height:.85}.logo-sub{font-size:10px;letter-spacing:.35em;text-transform:uppercase;color:#71717a}.nav{display:flex;gap:24px;font-size:13px;font-weight:600;color:#3f3f46}.nav a{text-decoration:none;color:inherit}.call-btn{border:1px solid #C9A24D;padding:9px 16px;font-size:14px;font-weight:800;color:#111;text-decoration:none}.hero{background:#11161A;color:white;padding:78px 64px}.eyebrow{color:#C9A24D;font-size:11px;font-weight:900;letter-spacing:.18em;text-transform:uppercase;margin-bottom:14px}h1{font-family:Georgia,serif;font-size:48px;line-height:1;text-transform:uppercase;margin-bottom:22px}.section{padding:56px 64px}.section h2{font-family:Georgia,serif;font-size:28px;text-transform:uppercase;margin:28px 0 12px}.section p,.section li{color:#4b5563;font-size:15px;margin-bottom:12px}.section ul{padding-left:22px}.btn-primary{display:inline-block;background:#C9A24D;color:#000;padding:13px 28px;font-size:12px;font-weight:900;text-transform:uppercase;text-decoration:none;margin-top:20px}.footer,footer{background:#07090B;color:#d4d4d8;padding:44px 40px 22px}.footer-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr;gap:32px}.footer h4,footer h4{color:#fff;font-size:14px;text-transform:uppercase;letter-spacing:.08em;margin-bottom:14px}.footer p,footer p{color:#b7bcc3;font-size:13px;margin:0 0 8px}.footer a,footer a{display:block;color:#d4d4d8;text-decoration:none;font-size:13px;margin:7px 0}.footer-contact a{display:inline;color:#C9A24D}.copyright{margin-top:28px;padding-top:18px;border-top:1px solid rgba(255,255,255,.12);color:#9ca3af;font-size:12px;text-align:center}@media(max-width:900px){.nav{display:none}.footer-grid{grid-template-columns:1fr}.hero,.section{padding:42px 28px}}
+/* V6 targeted layout fixes */
+.header{gap:18px; padding-left:32px; padding-right:32px;}
+.header > div:first-child{min-width:260px; max-width:300px;}
+.logo-main{font-size:24px !important; line-height:1.05 !important; white-space:normal; letter-spacing:-.02em;}
+.logo-sub{display:none !important;}
+.nav{gap:14px !important; font-size:12px !important; flex:1; justify-content:center; white-space:nowrap;}
+.nav a{white-space:nowrap;}
+.call-btn{white-space:nowrap; flex-shrink:0; font-size:12px !important; padding:10px 12px !important;}
+.hero:before,.hero::before{background:linear-gradient(90deg,rgba(0,0,0,.86),rgba(0,0,0,.58),rgba(0,0,0,.24)) !important;}
+.hero-content{position:relative; width:620px; max-width:calc(100% - 52px); padding:70px 0 70px 70px;}
+.footer a{display:block; color:#d4d4d8; text-decoration:none; font-size:12px; line-height:1.9; margin:2px 0;}
+.footer a:hover{color:#c9a24d;}
+.footer-contact a{display:inline;}
+@media(max-width:900px){.header{padding:18px 20px}.header > div:first-child{min-width:auto}.logo-main{font-size:22px !important}.call-btn{font-size:12px !important}.hero-content{width:auto;max-width:none;padding:55px 26px}.nav{display:none}}
+/* FINAL V7 SAFETY PATCH */
+.nav a{color:inherit !important;text-decoration:none !important;}
+.header a{color:inherit;text-decoration:none;}
+.footer a{display:block;color:#b8b8b8;text-decoration:none;margin:4px 0;}
+.footer a:hover{color:#C9A24D;}
+.footer-contact a,.footer .gold-link{color:#C9A24D !important;font-weight:800;}
+.legal-inline{display:flex;gap:14px;flex-wrap:wrap;margin-top:8px;}
+.legal-inline a{display:inline-block;color:#C9A24D !important;font-weight:800;}
+/* LEGAL PAGE GOLD FIX */
+main a, .section a{color:#C9A24D !important;font-weight:800;}
+.eyebrow{color:#C9A24D !important;}
+.footer a[href*="privacy"],.footer a[href*="terms"],.footer a[href*="thank-you"],.footer a[href^="mailto"]{color:#C9A24D !important;font-weight:800;}
+a[href^="tel:"],a[href^="mailto:"],.call-btn{color:#111!important;white-space:nowrap;}
+/* CORE LAUNCH 10/10 PATCH */
+.sticky-mobile-cta{display:none;}
+.trust-strip{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:#d7d7d7;}
+.trust-strip div{background:#F7F6F3;padding:22px;text-align:center;font-size:12px;font-weight:900;text-transform:uppercase;color:#11161A;}
+.trust-strip span{display:block;color:#C9A24D;font-size:18px;margin-bottom:6px;}
+.next-steps{background:#F7F6F3;border-top:1px solid #e5e7eb;border-bottom:1px solid #e5e7eb;padding:42px 56px;}
+.next-steps h2{font-family:Georgia,serif;text-transform:uppercase;font-size:28px;margin-bottom:20px;}
+.next-steps-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;}
+.next-steps-grid div{background:#fff;border:1px solid #e5e7eb;padding:20px;}
+.next-steps-grid strong{display:block;color:#C9A24D;margin-bottom:8px;font-size:18px;}
+.next-steps-grid p{font-size:13px;color:#52525b;line-height:1.6;}
+@media(max-width:900px){.trust-strip,.next-steps-grid{grid-template-columns:1fr 1fr}.sticky-mobile-cta{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:9999;background:#07090B;border-top:1px solid rgba(255,255,255,.16)}.sticky-mobile-cta a{flex:1;text-align:center;padding:14px 10px;text-decoration:none;font-size:12px;font-weight:900;text-transform:uppercase}.sticky-mobile-cta a:first-child{background:#C9A24D;color:#000}.sticky-mobile-cta a:last-child{color:#fff}.site{padding-bottom:54px}}
+@media(max-width:560px){.trust-strip,.next-steps-grid{grid-template-columns:1fr}}
+/* FINAL USER FIX — THANK YOU PAGE HEADER, HERO CENTER, FOOTER */
+.header{
+  display:flex !important;
+  align-items:center !important;
+  justify-content:space-between !important;
+  gap:18px !important;
+  flex-wrap:nowrap !important;
+}
+.brand-block{
+  min-width:220px !important;
+  flex:0 0 220px !important;
+  text-align:center !important;
+}
+.logo-main{
+  text-align:center !important;
+  font-size:26px !important;
+  font-weight:900 !important;
+  line-height:.95 !important;
+  white-space:nowrap !important;
+  text-transform:uppercase !important;
+}
+.logo-sub-final{
+  display:block !important;
+  text-align:center !important;
+  margin-top:6px !important;
+  font-size:10px !important;
+  line-height:1 !important;
+  font-weight:900 !important;
+  letter-spacing:.32em !important;
+  text-transform:uppercase !important;
+  color:#11161A !important;
+  padding-left:.32em !important;
+}
+.header .nav{
+  flex:1 1 auto !important;
+  display:flex !important;
+  justify-content:center !important;
+  align-items:center !important;
+  gap:14px !important;
+  font-size:12px !important;
+  font-weight:700 !important;
+  white-space:nowrap !important;
+}
+.header .nav a{
+  color:#3f3f46 !important;
+  text-decoration:none !important;
+  white-space:nowrap !important;
+}
+.header .call-btn{
+  flex:0 0 auto !important;
+  white-space:nowrap !important;
+}
+.thank-you-hero{
+  text-align:center !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  padding:96px 64px !important;
+}
+.thank-you-hero-inner{
+  max-width:820px !important;
+  margin:0 auto !important;
+}
+.thank-you-title{
+  font-family:Georgia, serif !important;
+  font-size:48px !important;
+  line-height:1 !important;
+  text-transform:uppercase !important;
+  color:#C9A24D !important;
+  font-weight:900 !important;
+  margin-bottom:18px !important;
+}
+.thank-you-hero h1{
+  text-align:center !important;
+  font-size:48px !important;
+  margin-bottom:22px !important;
+}
+.thank-you-hero p{
+  text-align:center !important;
+  max-width:760px !important;
+  margin:0 auto !important;
+  color:#ffffff !important;
+}
+.footer{
+  background:#07090B !important;
+  color:#ffffff !important;
+  padding:44px 40px 22px !important;
+}
+.footer-grid-final{
+  display:grid !important;
+  grid-template-columns:1.25fr .85fr 1.05fr 1.35fr !important;
+  gap:32px !important;
+  align-items:start !important;
+}
+.footer h4{
+  color:#ffffff !important;
+  font-size:14px !important;
+  text-transform:uppercase !important;
+  letter-spacing:.08em !important;
+  margin-bottom:14px !important;
+  font-weight:900 !important;
+}
+.footer p,
+.footer a{
+  color:#ffffff !important;
+  text-decoration:none !important;
+  font-size:13px !important;
+  line-height:1.7 !important;
+  font-weight:400 !important;
+  margin:0 0 8px !important;
+}
+.footer-company-columns{
+  display:grid !important;
+  grid-template-columns:1fr 1fr !important;
+  gap:6px 24px !important;
+}
+.footer-company-columns a{
+  white-space:nowrap !important;
+}
+@media(max-width:900px){
+  .nav{display:none !important;}
+  .brand-block{
+    min-width:auto !important;
+    flex:0 0 auto !important;
+  }
+  .logo-main{font-size:22px !important;}
+  .logo-sub-final{font-size:8px !important;letter-spacing:.24em !important;padding-left:.24em !important;}
+  .thank-you-hero{padding:72px 28px !important;}
+  .thank-you-title,
+  .thank-you-hero h1{font-size:38px !important;}
+  .footer-grid-final{grid-template-columns:1fr !important;}
+}
+@media(max-width:520px){
+  .thank-you-title,
+  .thank-you-hero h1{font-size:32px !important;}
+}
+/* FINAL USER FIX — HERO DESCRIPTION ONE LINE + FOOTER FINANCING SAME COLOR */
+.thank-you-hero p{
+  white-space:nowrap !important;
+  max-width:none !important;
+  width:100% !important;
+}
+.footer a[href="financing.html"],
+.footer-company-columns a[href="financing.html"]{
+  color:#ffffff !important;
+  font-weight:400 !important;
+}
+@media(max-width:900px){
+  .thank-you-hero p{
+    white-space:normal !important;
+    max-width:760px !important;
+  }
+}
+/* FINAL 10/10 GLOBAL QA PATCH */
+.header{
+  display:flex !important;
+  align-items:center !important;
+  justify-content:space-between !important;
+  gap:18px !important;
+  flex-wrap:nowrap !important;
+  padding-left:32px !important;
+  padding-right:32px !important;
+}
+.header > div:first-child,
+.brand-block{
+  min-width:220px !important;
+  flex:0 0 220px !important;
+  text-align:center !important;
+}
+.logo-main{
+  text-align:center !important;
+  font-size:26px !important;
+  font-weight:900 !important;
+  line-height:.95 !important;
+  white-space:nowrap !important;
+  text-transform:uppercase !important;
+  letter-spacing:-.03em !important;
+}
+.logo-sub,
+.logo-sub-final{
+  display:block !important;
+  width:100% !important;
+  text-align:center !important;
+  margin-top:6px !important;
+  font-size:10px !important;
+  line-height:1 !important;
+  font-weight:900 !important;
+  letter-spacing:.32em !important;
+  text-transform:uppercase !important;
+  color:#11161A !important;
+  padding-left:.32em !important;
+}
+.header .nav{
+  flex:1 1 auto !important;
+  display:flex !important;
+  justify-content:center !important;
+  align-items:center !important;
+  gap:14px !important;
+  font-size:12px !important;
+  font-weight:700 !important;
+  white-space:nowrap !important;
+  flex-wrap:nowrap !important;
+}
+.header .nav a{
+  color:#3f3f46 !important;
+  text-decoration:none !important;
+  white-space:nowrap !important;
+}
+.header .call-btn{
+  flex:0 0 auto !important;
+  white-space:nowrap !important;
+  color:#111 !important;
+  padding:9px 13px !important;
+  font-size:13px !important;
+}
+.footer, footer{
+  background:#07090B !important;
+  color:#ffffff !important;
+  padding:44px 40px 22px !important;
+  font-size:12px !important;
+}
+.footer-grid-final{
+  display:grid !important;
+  grid-template-columns:1.25fr .85fr 1.05fr 1.35fr !important;
+  gap:32px !important;
+  align-items:start !important;
+}
+.footer h4, footer h4{
+  color:#ffffff !important;
+  font-size:14px !important;
+  text-transform:uppercase !important;
+  letter-spacing:.08em !important;
+  margin-bottom:14px !important;
+  font-weight:900 !important;
+}
+.footer p, .footer a, footer p, footer a{
+  color:#ffffff !important;
+  text-decoration:none !important;
+  font-size:13px !important;
+  line-height:1.7 !important;
+  font-weight:400 !important;
+  margin:0 0 8px !important;
+}
+.footer-company-columns{
+  display:grid !important;
+  grid-template-columns:1fr 1fr !important;
+  gap:6px 24px !important;
+}
+.footer-company-columns a{white-space:nowrap !important;}
+a[href^="tel:"], a[href^="mailto:"], .call-btn{white-space:nowrap !important;}
+/* Fix saved-browser local asset folders if any survive */
+img{max-width:100%;}
+@media(max-width:900px){
+  .topbar, .nav{display:none !important;}
+  .header{padding:18px 22px !important;}
+  .header > div:first-child, .brand-block{
+    min-width:auto !important;
+    flex:0 0 auto !important;
+  }
+  .logo-main{font-size:22px !important;}
+  .logo-sub, .logo-sub-final{
+    font-size:8px !important;
+    letter-spacing:.24em !important;
+    padding-left:.24em !important;
+  }
+  .footer-grid-final{grid-template-columns:1fr !important;}
+  .footer, footer{padding:44px 24px 22px !important;}
+}
+/* SAFE FINAL — UNIFIED FOOTER TYPOGRAPHY */
+footer,
+.footer{
+  background:#07090B !important;
+  color:#a1a1aa !important;
+}
+footer h4,
+.footer h4{
+  color:#ffffff !important;
+  font-size:14px !important;
+  font-weight:900 !important;
+  text-transform:uppercase !important;
+  letter-spacing:.08em !important;
+  margin-bottom:14px !important;
+  font-family:Arial, Helvetica, sans-serif !important;
+}
+footer p,
+footer a,
+.footer p,
+.footer a,
+.footer-company-columns a,
+.footer-company-links a,
+.footer-index-grid-final p,
+.footer-index-grid-final a,
+.footer-grid-final p,
+.footer-grid-final a{
+  color:#a1a1aa !important;
+  text-decoration:none !important;
+  font-size:12px !important;
+  line-height:1.7 !important;
+  font-weight:400 !important;
+  margin:0 0 8px !important;
+  font-family:Arial, Helvetica, sans-serif !important;
+}
+.footer-brand-final,
+.footer-index-brand-final{
+  color:#ffffff !important;
+  font-weight:900 !important;
+}
+/* SAFE FINAL — FULL WIDTH SITE FIX */
+html,
+body{
+  width:100% !important;
+  max-width:none !important;
+  margin:0 !important;
+  padding:0 !important;
+  overflow-x:hidden !important;
+}
+.site,
+.page{
+  width:100% !important;
+  max-width:none !important;
+  margin:0 !important;
+  box-shadow:none !important;
+}
+@media(min-width:1181px){
+  .site,
+  .page{
+    width:100% !important;
+    max-width:none !important;
+  }
+}
+/* FINAL SAFE FIX — UNIFIED BRAND LOGO ON ALL PAGES */
+.header .brand-block,
+.header > div:first-child{
+  min-width:220px !important;
+  flex:0 0 220px !important;
+  text-align:center !important;
+}
+.logo-main{
+  font-family:Arial, Helvetica, sans-serif !important;
+  font-size:26px !important;
+  font-weight:900 !important;
+  line-height:.95 !important;
+  letter-spacing:-.03em !important;
+  text-transform:uppercase !important;
+  white-space:nowrap !important;
+  text-align:center !important;
+  color:#11161A !important;
+}
+.logo-sub,
+.logo-sub-final{
+  display:block !important;
+  width:100% !important;
+  font-family:Arial, Helvetica, sans-serif !important;
+  font-size:10px !important;
+  font-weight:900 !important;
+  line-height:1 !important;
+  letter-spacing:.32em !important;
+  text-transform:uppercase !important;
+  white-space:nowrap !important;
+  text-align:center !important;
+  color:#11161A !important;
+  margin-top:6px !important;
+  padding-left:.32em !important;
+}
+footer .logo-main,
+footer .footer-brand-final,
+.footer-brand-final{
+  color:#ffffff !important;
+}
+@media(max-width:900px){
+  .header .brand-block,
+  .header > div:first-child{
+    min-width:auto !important;
+    flex:0 0 auto !important;
+  }
+  .logo-main{
+    font-size:22px !important;
+  }
+  .logo-sub,
+  .logo-sub-final{
+    font-size:8px !important;
+    letter-spacing:.24em !important;
+    padding-left:.24em !important;
+  }
+}
+
+
+/* FINAL THANK YOU NO DARK FILM */
+.thank-you-hero::before,
+.thank-you-hero::after,
+.hero.thank-you-hero::before,
+.hero.thank-you-hero::after{
+  display:none !important;
+  content:none !important;
+  opacity:0 !important;
+  background:none !important;
+}
+
+.thank-you-hero{
+  background:#11161A !important;
+  position:relative !important;
+}
+
+
+/* FINAL FINANCING FOOTER COLOR */
+.footer a[href="financing.html"],
+.footer-company-columns a[href="financing.html"]{
+  color:#a1a1aa !important;
+  font-weight:400 !important;
+}
+
+
+/* FINAL CLEAN THANK-YOU OVERRIDES */
+html, body, .site{
+  background:#ffffff !important;
+  background-color:#ffffff !important;
+  box-shadow:none !important;
+}
+
+.thank-you-hero::before,
+.thank-you-hero::after,
+.hero.thank-you-hero::before,
+.hero.thank-you-hero::after{
+  display:none !important;
+  content:none !important;
+  opacity:0 !important;
+  background:none !important;
+  pointer-events:none !important;
+}
+
+.thank-you-hero{
+  background:#11161A !important;
+  background-image:none !important;
+  position:relative !important;
+}
+
+main.section{
+  text-align:center !important;
+  max-width:980px !important;
+  margin:0 auto !important;
+  padding:72px 40px !important;
+  background:#ffffff !important;
+}
+
+main.section ul{
+  list-style:none !important;
+  padding:0 !important;
+  margin:26px auto !important;
+  max-width:760px !important;
+}
+
+main.section li{
+  text-align:center !important;
+  margin-bottom:14px !important;
+}
+
+main.section li::before{
+  content:"✓ ";
+  color:#C9A24D !important;
+  font-weight:900 !important;
+}
+
+main.section p a[href^="tel:"],
+main.section p a[href^="mailto:"]{
+  color:#C9A24D !important;
+  font-weight:800 !important;
+  text-decoration:none !important;
+}
+
+.footer-company-columns a[href="financing.html"],
+.footer a[href="financing.html"],
+footer a[href="financing.html"]{
+  color:#a1a1aa !important;
+  font-weight:400 !important;
+}
+
+.header,
+.nav,
+.nav a,
+.footer,
+.footer a,
+footer,
+footer a{
+  pointer-events:auto !important;
+  position:relative !important;
+  z-index:50 !important;
+}
+
+</style><meta content="Thank you page for Urban Nexus Construction estimate requests." name="description">
+<link href="https://urbannexus.nyc/thank-you.html" rel="canonical">
+<meta content="Request Received | Urban Nexus Construction" property="og:title">
+<meta content="Thank you page for Urban Nexus Construction estimate requests." property="og:description">
+<meta content="https://urbannexus.nyc/thank-you.html" property="og:url">
+<meta content="website" property="og:type">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "HomeAndConstructionBusiness", "name": "Urban Nexus Construction", "url": "https://urbannexus.nyc/", "telephone": "+13478830909", "email": "info@urbannexus.nyc", "areaServed": ["New York City", "Brooklyn", "Manhattan", "Queens", "Bronx", "Staten Island"], "priceRange": "$$$", "description": "Licensed and insured home improvement contractor serving New York City homeowners."}</script>
+<link crossorigin="" href="https://images.unsplash.com/" rel="preconnect">
+<link href="https://images.unsplash.com/" rel="dns-prefetch">
+</head><body><div class="site"><div class="topbar"><span>Licensed &amp; Insured Home Improvement Contractor in NYC</span><span>(347) 883-0909 · info@urbannexus.nyc</span></div><header class="header"><div class="brand-block">
+<div class="logo-main">Urban Nexus</div>
+<div class="logo-sub-final">Construction</div>
+</div><nav class="nav">
+<a href="index.html">Home</a>
+<a href="services.html">Services</a>
+<a href="projects.html">Projects</a>
+<a href="about.html">About</a>
+<a href="reviews.html">Reviews</a>
+<a href="financing.html">Financing</a>
+<a href="blog.html">Blog</a>
+<a href="contact.html">Contact</a>
+</nav><a class="call-btn" href="tel:+13478830909">☎ (347) 883-0909</a></header><section class="hero thank-you-hero">
+<div class="thank-you-hero-inner">
+<div class="thank-you-title">Thank You</div>
+<h1>Request Received</h1>
+<p>Urban Nexus Construction — licensed and insured home improvement contractor serving New York City homeowners.</p>
+</div>
+</section><main class="section"><h2>Your request has been submitted.</h2><p>Thank you for contacting Urban Nexus Construction. We received your project details and will review your request.</p><h2>What Happens Next</h2><ul><li>We review your service type, location, budget, and timeline.</li><li>We contact you if the project appears to be a fit.</li><li>We discuss next steps and estimate requirements.</li></ul><p>For urgent requests, call <a href="tel:+13478830909">(347) 883-0909</a> or email <a class="gold-link" href="mailto:info@urbannexus.nyc">info@urbannexus.nyc</a>.</p></main><footer class="footer">
+<div class="footer-grid footer-grid-final">
+<div>
+<h4>Urban Nexus Construction</h4>
+<p>Licensed and insured home improvement contractor serving homeowners across New York City.</p>
+</div>
+<div>
+<h4>Services</h4>
+<a href="services.html">Kitchen Remodeling</a>
+<a href="services.html">Bathroom Renovation</a>
+<a href="services.html">Apartment Renovation</a>
+</div>
+<div>
+<h4>Company</h4>
+<div class="footer-company-columns">
+<div>
+<a href="index.html">Home</a>
+<a href="services.html">Services</a>
+<a href="projects.html">Projects</a>
+<a href="about.html">About</a>
+</div>
+<div>
+<a href="reviews.html">Reviews</a>
+<a href="financing.html">Financing</a>
+<a href="blog.html">Blog</a>
+<a href="contact.html">Contact</a>
+</div>
+</div>
+</div>
+<div>
+<h4>Contact</h4>
+<p>Phone: (347) 883-0909</p>
+<p>Email: info@urbannexus.nyc</p>
+<p>Serving Manhattan, Brooklyn, Queens, The Bronx, Staten Island</p>
+</div>
+</div>
+<div class="copyright">
+        © 2026 Urban Nexus Construction. All rights reserved. · urbannexus.nyc
+      </div>
+</footer></div>
+</body></html>
