@@ -1,0 +1,380 @@
+{
+  "status": "PASS",
+  "optimization": {
+    "assets_folder": "assets/optimized/",
+    "webp_conversion": true,
+    "optimized_asset_count": 24,
+    "optimized_assets_total_kb": 2406.2
+  },
+  "files": [
+    {
+      "file": "index.html",
+      "status": "OK",
+      "source": "index(52).html",
+      "before": {
+        "size_kb": 970.8,
+        "img_tags": 15,
+        "data_images": 2,
+        "file_protocol_refs": 0,
+        "local_folder_refs": 0,
+        "lazy_count": 0,
+        "async_count": 0,
+        "unsplash_w1800": 1
+      },
+      "after": {
+        "size_kb": 38.4,
+        "img_tags": 15,
+        "data_images": 0,
+        "file_protocol_refs": 0,
+        "local_folder_refs": 0,
+        "lazy_count": 15,
+        "async_count": 15,
+        "unsplash_w1800": 0
+      },
+      "data_images_extracted": 2,
+      "data_uri_original_kb_est": 933.1,
+      "new_assets_kb": 205.6,
+      "html_size_reduction_kb": 932.4
+    },
+    {
+      "file": "services.html",
+      "status": "OK",
+      "source": "services(22).html",
+      "before": {
+        "size_kb": 5553.9,
+        "img_tags": 10,
+        "data_images": 10,
+        "file_protocol_refs": 0,
+        "local_folder_refs": 0,
+        "lazy_count": 0,
+        "async_count": 0,
+        "unsplash_w1800": 1
+      },
+      "after": {
+        "size_kb": 36.0,
+        "img_tags": 10,
+        "data_images": 0,
+        "file_protocol_refs": 0,
+        "local_folder_refs": 0,
+        "lazy_count": 10,
+        "async_count": 10,
+        "unsplash_w1800": 0
+      },
+      "data_images_extracted": 10,
+      "data_uri_original_kb_est": 5516.3,
+      "new_assets_kb": 955.7,
+      "html_size_reduction_kb": 5517.9
+    },
+    {
+      "file": "projects.html",
+      "status": "OK",
+      "source": "projects_FINAL_READY_FOR_GITHUB.html",
+      "before": {
+        "size_kb": 20241.0,
+        "img_tags": 9,
+        "data_images": 9,
+        "file_protocol_refs": 0,
+        "local_folder_refs": 0,
+        "lazy_count": 0,
+        "async_count": 0,
+        "unsplash_w1800": 1
+      },
+      "after": {
+        "size_kb": 39.4,
+        "img_tags": 9,
+        "data_images": 0,
+        "file_protocol_refs": 0,
+        "local_folder_refs": 0,
+        "lazy_count": 9,
+        "async_count": 9,
+        "unsplash_w1800": 0
+      },
+      "data_images_extracted": 9,
+      "data_uri_original_kb_est": 20200.4,
+      "new_assets_kb": 926.9,
+      "html_size_reduction_kb": 20201.6
+    },
+    {
+      "file": "about.html",
+      "status": "OK",
+      "source": "about(27).html",
+      "before": {
+        "size_kb": 3526.6,
+        "img_tags": 1,
+        "data_images": 1,
+        "file_protocol_refs": 0,
+        "local_folder_refs": 0,
+        "lazy_count": 0,
+        "async_count": 0,
+        "unsplash_w1800": 1
+      },
+      "after": {
+        "size_kb": 25.9,
+        "img_tags": 1,
+        "data_images": 0,
+        "file_protocol_refs": 0,
+        "local_folder_refs": 0,
+        "lazy_count": 1,
+        "async_count": 1,
+        "unsplash_w1800": 0
+      },
+      "data_images_extracted": 1,
+      "data_uri_original_kb_est": 3499.2,
+      "new_assets_kb": 139.6,
+      "html_size_reduction_kb": 3500.7
+    },
+    {
+      "file": "reviews.html",
+      "status": "OK",
+      "source": "reviews(18).html",
+      "before": {
+        "size_kb": 2781.6,
+        "img_tags": 7,
+        "data_images": 1,
+        "file_protocol_refs": 0,
+        "local_folder_refs": 0,
+        "lazy_count": 0,
+        "async_count": 0,
+        "unsplash_w1800": 1
+      },
+      "after": {
+        "size_kb": 35.8,
+        "img_tags": 7,
+        "data_images": 0,
+        "file_protocol_refs": 0,
+        "local_folder_refs": 0,
+        "lazy_count": 7,
+        "async_count": 7,
+        "unsplash_w1800": 0
+      },
+      "data_images_extracted": 1,
+      "data_uri_original_kb_est": 2744.1,
+      "new_assets_kb": 69.8,
+      "html_size_reduction_kb": 2745.8
+    },
+    {
+      "file": "financing.html",
+      "status": "OK",
+      "source": "financing(16).html",
+      "before": {
+        "size_kb": 31.6,
+        "img_tags": 1,
+        "data_images": 0,
+        "file_protocol_refs": 0,
+        "local_folder_refs": 0,
+        "lazy_count": 0,
+        "async_count": 0,
+        "unsplash_w1800": 1
+      },
+      "after": {
+        "size_kb": 29.8,
+        "img_tags": 1,
+        "data_images": 0,
+        "file_protocol_refs": 0,
+        "local_folder_refs": 0,
+        "lazy_count": 1,
+        "async_count": 1,
+        "unsplash_w1800": 0
+      },
+      "data_images_extracted": 0,
+      "data_uri_original_kb_est": 0.0,
+      "new_assets_kb": 0.0,
+      "html_size_reduction_kb": 1.8
+    },
+    {
+      "file": "blog.html",
+      "status": "OK",
+      "source": "blog(22).html",
+      "before": {
+        "size_kb": 1222.3,
+        "img_tags": 3,
+        "data_images": 2,
+        "file_protocol_refs": 0,
+        "local_folder_refs": 0,
+        "lazy_count": 0,
+        "async_count": 0,
+        "unsplash_w1800": 1
+      },
+      "after": {
+        "size_kb": 623.3,
+        "img_tags": 3,
+        "data_images": 1,
+        "file_protocol_refs": 0,
+        "local_folder_refs": 0,
+        "lazy_count": 3,
+        "async_count": 3,
+        "unsplash_w1800": 0
+      },
+      "data_images_extracted": 1,
+      "data_uri_original_kb_est": 598.4,
+      "new_assets_kb": 108.6,
+      "html_size_reduction_kb": 599.0
+    },
+    {
+      "file": "contact.html",
+      "status": "OK",
+      "source": "contact(41).html",
+      "before": {
+        "size_kb": 2846.9,
+        "img_tags": 0,
+        "data_images": 1,
+        "file_protocol_refs": 0,
+        "local_folder_refs": 0,
+        "lazy_count": 0,
+        "async_count": 0,
+        "unsplash_w1800": 1
+      },
+      "after": {
+        "size_kb": 2845.3,
+        "img_tags": 0,
+        "data_images": 1,
+        "file_protocol_refs": 0,
+        "local_folder_refs": 0,
+        "lazy_count": 0,
+        "async_count": 0,
+        "unsplash_w1800": 0
+      },
+      "data_images_extracted": 0,
+      "data_uri_original_kb_est": 0.0,
+      "new_assets_kb": 0.0,
+      "html_size_reduction_kb": 1.6
+    },
+    {
+      "file": "privacy-policy.html",
+      "status": "OK",
+      "source": "privacy-policy(7).html",
+      "before": {
+        "size_kb": 18.6,
+        "img_tags": 0,
+        "data_images": 0,
+        "file_protocol_refs": 0,
+        "local_folder_refs": 0,
+        "lazy_count": 0,
+        "async_count": 0,
+        "unsplash_w1800": 0
+      },
+      "after": {
+        "size_kb": 18.3,
+        "img_tags": 0,
+        "data_images": 0,
+        "file_protocol_refs": 0,
+        "local_folder_refs": 0,
+        "lazy_count": 0,
+        "async_count": 0,
+        "unsplash_w1800": 0
+      },
+      "data_images_extracted": 0,
+      "data_uri_original_kb_est": 0.0,
+      "new_assets_kb": 0.0,
+      "html_size_reduction_kb": 0.3
+    },
+    {
+      "file": "terms.html",
+      "status": "OK",
+      "source": "terms(8).html",
+      "before": {
+        "size_kb": 20.6,
+        "img_tags": 0,
+        "data_images": 0,
+        "file_protocol_refs": 0,
+        "local_folder_refs": 0,
+        "lazy_count": 0,
+        "async_count": 0,
+        "unsplash_w1800": 0
+      },
+      "after": {
+        "size_kb": 20.3,
+        "img_tags": 0,
+        "data_images": 0,
+        "file_protocol_refs": 0,
+        "local_folder_refs": 0,
+        "lazy_count": 0,
+        "async_count": 0,
+        "unsplash_w1800": 0
+      },
+      "data_images_extracted": 0,
+      "data_uri_original_kb_est": 0.0,
+      "new_assets_kb": 0.0,
+      "html_size_reduction_kb": 0.3
+    },
+    {
+      "file": "financing-disclaimer.html",
+      "status": "OK",
+      "source": "financing-disclaimer(9).html",
+      "before": {
+        "size_kb": 19.6,
+        "img_tags": 0,
+        "data_images": 0,
+        "file_protocol_refs": 0,
+        "local_folder_refs": 0,
+        "lazy_count": 0,
+        "async_count": 0,
+        "unsplash_w1800": 0
+      },
+      "after": {
+        "size_kb": 19.3,
+        "img_tags": 0,
+        "data_images": 0,
+        "file_protocol_refs": 0,
+        "local_folder_refs": 0,
+        "lazy_count": 0,
+        "async_count": 0,
+        "unsplash_w1800": 0
+      },
+      "data_images_extracted": 0,
+      "data_uri_original_kb_est": 0.0,
+      "new_assets_kb": 0.0,
+      "html_size_reduction_kb": 0.3
+    },
+    {
+      "file": "thank-you.html",
+      "status": "OK",
+      "source": "thank-you(41).html",
+      "before": {
+        "size_kb": 21.8,
+        "img_tags": 0,
+        "data_images": 0,
+        "file_protocol_refs": 0,
+        "local_folder_refs": 0,
+        "lazy_count": 0,
+        "async_count": 0,
+        "unsplash_w1800": 0
+      },
+      "after": {
+        "size_kb": 21.4,
+        "img_tags": 0,
+        "data_images": 0,
+        "file_protocol_refs": 0,
+        "local_folder_refs": 0,
+        "lazy_count": 0,
+        "async_count": 0,
+        "unsplash_w1800": 0
+      },
+      "data_images_extracted": 0,
+      "data_uri_original_kb_est": 0.0,
+      "new_assets_kb": 0.0,
+      "html_size_reduction_kb": 0.4
+    },
+    {
+      "file": "robots.txt",
+      "status": "COPIED",
+      "source": "robots(34).txt"
+    },
+    {
+      "file": "sitemap.xml",
+      "status": "COPIED",
+      "source": "sitemap(34).xml"
+    },
+    {
+      "file": "vercel.json",
+      "status": "COPIED",
+      "source": "vercel(26).json"
+    },
+    {
+      "file": "README_FINAL_LAUNCH.md",
+      "status": "COPIED",
+      "source": "README_FINAL_LAUNCH(4).md"
+    }
+  ],
+  "blockers": []
+}

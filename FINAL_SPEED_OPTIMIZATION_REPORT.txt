@@ -1,0 +1,24 @@
+Urban Nexus Construction — FINAL SPEED OPTIMIZATION REPORT
+
+STATUS: PASS
+WebP conversion available: True
+Optimized assets: 24
+Optimized assets total: 2406.2 KB
+Blockers: 0
+
+index.html: OK | html 970.8KB -> 38.4KB | data extracted 2 | imgs 15
+services.html: OK | html 5553.9KB -> 36.0KB | data extracted 10 | imgs 10
+projects.html: OK | html 20241.0KB -> 39.4KB | data extracted 9 | imgs 9
+about.html: OK | html 3526.6KB -> 25.9KB | data extracted 1 | imgs 1
+reviews.html: OK | html 2781.6KB -> 35.8KB | data extracted 1 | imgs 7
+financing.html: OK | html 31.6KB -> 29.8KB | data extracted 0 | imgs 1
+blog.html: OK | html 1222.3KB -> 623.3KB | data extracted 1 | imgs 3
+contact.html: OK | html 2846.9KB -> 2845.3KB | data extracted 0 | imgs 0
+privacy-policy.html: OK | html 18.6KB -> 18.3KB | data extracted 0 | imgs 0
+terms.html: OK | html 20.6KB -> 20.3KB | data extracted 0 | imgs 0
+financing-disclaimer.html: OK | html 19.6KB -> 19.3KB | data extracted 0 | imgs 0
+thank-you.html: OK | html 21.8KB -> 21.4KB | data extracted 0 | imgs 0
+robots.txt: COPIED | html -KB -> -KB | data extracted - | imgs -
+sitemap.xml: COPIED | html -KB -> -KB | data extracted - | imgs -
+vercel.json: COPIED | html -KB -> -KB | data extracted - | imgs -
+README_FINAL_LAUNCH.md: COPIED | html -KB -> -KB | data extracted - | imgs -
