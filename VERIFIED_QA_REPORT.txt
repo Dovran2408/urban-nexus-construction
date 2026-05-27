@@ -1,0 +1,23 @@
+Urban Nexus Construction — VERIFIED GITHUB UPLOAD
+
+STATUS: PASS
+HTML files: 12
+Assets included: 25
+Missing image refs: 0
+file:/// pages: 0
+local browser folder refs: 0
+missing internal file links: 0
+
+Image/background count by page:
+about.html: 4
+blog.html: 4
+contact.html: 2
+financing-disclaimer.html: 0
+financing.html: 2
+index.html: 16
+privacy-policy.html: 0
+projects.html: 10
+reviews.html: 9
+services.html: 11
+terms.html: 0
+thank-you.html: 0

@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "html_files": 12,
+  "assets_count": 25,
+  "missing_image_refs": [],
+  "file_protocol_pages": [],
+  "local_browser_folder_pages": [],
+  "remaining_data_image_pages": [],
+  "missing_internal_file_links": [],
+  "image_counts": {
+    "about.html": 4,
+    "blog.html": 4,
+    "contact.html": 2,
+    "financing.html": 2,
+    "financing-disclaimer.html": 0,
+    "index.html": 16,
+    "privacy-policy.html": 0,
+    "projects.html": 10,
+    "reviews.html": 9,
+    "services.html": 11,
+    "terms.html": 0,
+    "thank-you.html": 0
+  }
+}
