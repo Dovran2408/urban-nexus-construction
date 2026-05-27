@@ -182,8 +182,8 @@ a[href^="tel:"],a[href^="mailto:"],.call-btn{color:#111!important;white-space:no
   max-width:none !important;
   width:100% !important;
 }
-.footer a[href="financing.html"],
-.footer-company-columns a[href="financing.html"]{
+.footer a[href="/financing"],
+.footer-company-columns a[href="/financing"]{
   color:#ffffff !important;
   font-weight:400 !important;
 }
@@ -445,87 +445,10 @@ footer .footer-brand-final,
 
 
 /* FINAL FINANCING FOOTER COLOR */
-.footer a[href="financing.html"],
-.footer-company-columns a[href="financing.html"]{
+.footer a[href="/financing"],
+.footer-company-columns a[href="/financing"]{
   color:#a1a1aa !important;
   font-weight:400 !important;
-}
-
-
-/* FINAL CLEAN THANK-YOU OVERRIDES */
-html, body, .site{
-  background:#ffffff !important;
-  background-color:#ffffff !important;
-  box-shadow:none !important;
-}
-
-.thank-you-hero::before,
-.thank-you-hero::after,
-.hero.thank-you-hero::before,
-.hero.thank-you-hero::after{
-  display:none !important;
-  content:none !important;
-  opacity:0 !important;
-  background:none !important;
-  pointer-events:none !important;
-}
-
-.thank-you-hero{
-  background:#11161A !important;
-  background-image:none !important;
-  position:relative !important;
-}
-
-main.section{
-  text-align:center !important;
-  max-width:980px !important;
-  margin:0 auto !important;
-  padding:72px 40px !important;
-  background:#ffffff !important;
-}
-
-main.section ul{
-  list-style:none !important;
-  padding:0 !important;
-  margin:26px auto !important;
-  max-width:760px !important;
-}
-
-main.section li{
-  text-align:center !important;
-  margin-bottom:14px !important;
-}
-
-main.section li::before{
-  content:"✓ ";
-  color:#C9A24D !important;
-  font-weight:900 !important;
-}
-
-main.section p a[href^="tel:"],
-main.section p a[href^="mailto:"]{
-  color:#C9A24D !important;
-  font-weight:800 !important;
-  text-decoration:none !important;
-}
-
-.footer-company-columns a[href="financing.html"],
-.footer a[href="financing.html"],
-footer a[href="financing.html"]{
-  color:#a1a1aa !important;
-  font-weight:400 !important;
-}
-
-.header,
-.nav,
-.nav a,
-.footer,
-.footer a,
-footer,
-footer a{
-  pointer-events:auto !important;
-  position:relative !important;
-  z-index:50 !important;
 }
 
 </style><meta content="Thank you page for Urban Nexus Construction estimate requests." name="description">
@@ -595,4 +518,39 @@ footer a{
         © 2026 Urban Nexus Construction. All rights reserved. · urbannexus.nyc
       </div>
 </footer></div>
+<script>
+(function(){
+  function fieldValue(form, name, fallbackIndex){
+    var field = form.querySelector('[name="'+name+'"]');
+    if(field) return field.value || '';
+    var inputs = form.querySelectorAll('input, select, textarea');
+    return inputs[fallbackIndex] ? (inputs[fallbackIndex].value || '') : '';
+  }
+  document.querySelectorAll('form').forEach(function(form){
+    if(form.dataset.leadReady === 'true') return;
+    form.dataset.leadReady = 'true';
+    form.addEventListener('submit', async function(e){
+      e.preventDefault();
+      var btn = form.querySelector('button[type="submit"], button');
+      var original = btn ? btn.textContent : '';
+      if(btn){ btn.disabled = true; btn.textContent = 'Submitting...'; }
+      var payload = {
+        name: fieldValue(form, 'name', 0),
+        phone: fieldValue(form, 'phone', 1),
+        email: fieldValue(form, 'email', 2),
+        location: fieldValue(form, 'location', 3),
+        service: fieldValue(form, 'service', 4),
+        budget: fieldValue(form, 'budget', 5),
+        timeline: fieldValue(form, 'timeline', 6),
+        message: fieldValue(form, 'message', 7),
+        source: window.location.pathname
+      };
+      try {
+        await fetch('/api/leads', { method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(payload) });
+      } catch(err) {}
+      window.location.href = 'thank-you.html';
+    });
+  });
+})();
+</script>
 </body></html>
