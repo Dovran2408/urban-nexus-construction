@@ -850,12 +850,12 @@ footer .footer-brand-final,
             The more detail you provide, the faster we can understand your renovation needs
             and prepare the next step.
           </p>
-<form action="thank-you.html" class="form-grid" method="get">
-<input _mstplaceholder="108303" placeholder="Full Name" required="" type="text"/>
-<input _mstplaceholder="176917" placeholder="Phone Number" required="" type="tel"/>
-<input _mstplaceholder="198861" placeholder="Email Address" type="email"/>
-<input _mstplaceholder="504751" placeholder="Project Address / Borough" type="text"/>
-<select required="">
+<form id="leadForm" class="form-grid">
+<input name="name" placeholder="Full Name" required type="text"/>
+<input name="phone" placeholder="Phone Number" required type="tel"/>
+<input name="email" placeholder="Email Address" type="email"/>
+<input name="address" placeholder="Project Address / Borough" type="text"/>
+<select name="projectType" required>
 <option value="">Select Project Type</option>
 <option>Kitchen Renovation</option>
 <option>Bathroom Remodeling</option>
@@ -864,9 +864,9 @@ footer .footer-brand-final,
 <option>Full Home Renovation</option>
 <option>Other Home Improvement Work</option>
 </select>
-<input _mstplaceholder="315016" placeholder="Estimated Budget ($)" type="text"/>
-<input _mstplaceholder="343122" placeholder="Preferred Timeline" type="text"/>
-<textarea placeholder="Describe your project..."></textarea>
+<input name="budget" placeholder="Estimated Budget ($)" type="text"/>
+<input name="timeline" placeholder="Preferred Timeline" type="text"/>
+<textarea name="message" placeholder="Describe your project..."></textarea>
 <button class="btn-primary full" type="submit">Submit Request</button>
 </form>
 </div>
@@ -1001,4 +1001,60 @@ footer .footer-brand-final,
 </div>
 </footer>
 </div>
+<script>
+(function () {
+  const form = document.getElementById("leadForm");
+  if (!form) return;
+
+  form.addEventListener("submit", async function (event) {
+    event.preventDefault();
+
+    const submitButton = form.querySelector('button[type="submit"]');
+    const originalButtonText = submitButton ? submitButton.textContent : "Submit Request";
+
+    if (submitButton) {
+      submitButton.disabled = true;
+      submitButton.textContent = "Submitting...";
+    }
+
+    const payload = {
+      name: form.elements["name"]?.value || "",
+      phone: form.elements["phone"]?.value || "",
+      email: form.elements["email"]?.value || "",
+      address: form.elements["address"]?.value || "",
+      projectType: form.elements["projectType"]?.value || "",
+      budget: form.elements["budget"]?.value || "",
+      timeline: form.elements["timeline"]?.value || "",
+      message: form.elements["message"]?.value || "",
+      source: "Urban Nexus Construction Contact Page",
+      submittedAt: new Date().toISOString()
+    };
+
+    try {
+      const response = await fetch("/api/leads", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(payload)
+      });
+
+      if (!response.ok) {
+        throw new Error("Lead webhook failed");
+      }
+
+      window.location.href = "thank-you.html";
+    } catch (error) {
+      console.error("Lead submission failed:", error);
+      alert("Submission failed. Please call (347) 883-0909 or email info@urbannexus.nyc.");
+
+      if (submitButton) {
+        submitButton.disabled = false;
+        submitButton.textContent = originalButtonText;
+      }
+    }
+  });
+})();
+</script>
+
 </body></html>
