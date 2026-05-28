@@ -1,0 +1,188 @@
+{
+  "status": "PASS",
+  "processed_files": [
+    "index.html",
+    "services.html",
+    "projects.html",
+    "about.html",
+    "reviews.html",
+    "financing.html",
+    "blog.html",
+    "contact.html",
+    "thank-you.html",
+    "privacy-policy.html",
+    "terms.html",
+    "financing-disclaimer.html",
+    "robots.txt",
+    "sitemap.xml",
+    "vercel.json",
+    "google7fcf778dd05cdd4b.html"
+  ],
+  "assets_copied": [
+    "blog-embedded-01.webp",
+    "blog-img-01.webp",
+    "contact-embedded-01.webp",
+    "index-img-01.webp",
+    "index-img-02.webp",
+    "projects-img-01.webp",
+    "projects-img-02.webp",
+    "projects-img-03.webp",
+    "projects-img-04.webp",
+    "projects-img-05.webp",
+    "projects-img-06.webp",
+    "projects-img-07.webp",
+    "projects-img-08.webp",
+    "projects-img-09.webp",
+    "reviews-img-01.webp",
+    "services-img-01.webp",
+    "services-img-02.webp",
+    "services-img-03.webp",
+    "services-img-04.webp",
+    "services-img-05.webp",
+    "services-img-06.webp",
+    "services-img-07.webp",
+    "services-img-08.webp",
+    "services-img-09.webp",
+    "services-img-10.webp"
+  ],
+  "missing_asset_sources": [],
+  "missing_asset_refs": [],
+  "file_protocol_pages": [],
+  "internal_missing_links": [],
+  "thank_you_missing_core_links": [],
+  "thank_you_links_found": [
+    "/financing",
+    "/financing",
+    "/financing",
+    "/financing",
+    "https://urbannexus.nyc/thank-you.html",
+    "https://images.unsplash.com/",
+    "https://images.unsplash.com/",
+    "index.html",
+    "services.html",
+    "projects.html",
+    "about.html",
+    "reviews.html",
+    "financing.html",
+    "blog.html",
+    "contact.html",
+    "tel:+13478830909",
+    "tel:+13478830909",
+    "mailto:info@urbannexus.nyc",
+    "services.html",
+    "services.html",
+    "services.html",
+    "index.html",
+    "services.html",
+    "projects.html",
+    "about.html",
+    "reviews.html",
+    "financing.html",
+    "blog.html",
+    "contact.html"
+  ],
+  "form_checks": {
+    "index.html": {
+      "has_api_leads": true,
+      "old_get_action_removed": true,
+      "has_data_lead_form": true
+    },
+    "services.html": {
+      "has_api_leads": true,
+      "old_get_action_removed": true,
+      "has_data_lead_form": true
+    },
+    "contact.html": {
+      "has_api_leads": true,
+      "old_get_action_removed": true,
+      "has_data_lead_form": true
+    }
+  },
+  "mobile_fix_pages_count": 12,
+  "external_image_refs_kept": {
+    "index.html": [
+      "https://images.unsplash.com/",
+      "https://images.unsplash.com",
+      "https://images.unsplash.com",
+      "https://images.unsplash.com/photo-1620626011761-996317b8d101?q=75&amp;w=1400&amp;auto=format&amp;fit=crop",
+      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=75&amp;w=1400&amp;auto=format&amp;fit=crop",
+      "https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?q=75&amp;w=1400&amp;auto=format&amp;fit=crop",
+      "https://images.unsplash.com/photo-1562259949-e8e7689d7828?q=75&amp;w=1400&amp;auto=format&amp;fit=crop",
+      "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?q=75&amp;w=1400&amp;auto=format&amp;fit=crop",
+      "https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?q=75&amp;w=1400&amp;auto=format&amp;fit=crop",
+      "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?q=75&amp;w=1400&amp;auto=format&amp;fit=crop",
+      "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?q=75&amp;w=1400&amp;auto=format&amp;fit=crop",
+      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=75&amp;w=1400&amp;auto=format&amp;fit=crop",
+      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=75&amp;w=1400&amp;auto=format&amp;fit=crop",
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=75&amp;w=1400&amp;auto=format&amp;fit=crop",
+      "https://images.unsplash.com/photo-1600566753151-384129cf4e3e?q=75&amp;w=1400&amp;auto=format&amp;fit=crop",
+      "https://images.unsplash.com/photo-1604014237800-1c9102c219da?q=75&amp;w=1400&amp;auto=format&amp;fit=crop",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=75&w=1200&auto=format&fit=crop"
+    ],
+    "services.html": [
+      "https://images.unsplash.com",
+      "https://images.unsplash.com",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=75&w=1200&auto=format&fit=crop"
+    ],
+    "projects.html": [
+      "https://images.unsplash.com",
+      "https://images.unsplash.com",
+      "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?q=75&w=1200&auto=format&fit=crop"
+    ],
+    "about.html": [
+      "https://images.unsplash.com/",
+      "https://images.unsplash.com/",
+      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=75&w=1400&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?q=75&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=75&w=1400&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=75&w=1400&auto=format&fit=crop"
+    ],
+    "reviews.html": [
+      "https://images.unsplash.com",
+      "https://images.unsplash.com",
+      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=75&amp;w=1400&amp;auto=format&amp;fit=crop",
+      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=75&amp;w=1400&amp;auto=format&amp;fit=crop",
+      "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=75&amp;w=1400&amp;auto=format&amp;fit=crop",
+      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=75&amp;w=1400&amp;auto=format&amp;fit=crop",
+      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=75&amp;w=1400&amp;auto=format&amp;fit=crop",
+      "https://images.unsplash.com/photo-1504593811423-6dd665756598?q=75&amp;w=1400&amp;auto=format&amp;fit=crop",
+      "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?q=75&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=75&w=1200&auto=format&fit=crop"
+    ],
+    "financing.html": [
+      "https://images.unsplash.com",
+      "https://images.unsplash.com",
+      "https://images.unsplash.com/photo-1600566753151-384129cf4e3e?q=75&amp;w=1400&amp;auto=format&amp;fit=crop",
+      "https://images.unsplash.com/photo-1600566753151-384129cf4e3e?q=75&w=1200&auto=format&fit=crop"
+    ],
+    "blog.html": [
+      "https://images.unsplash.com/",
+      "https://images.unsplash.com/",
+      "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?q=75&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1620626011761-996317b8d101?q=75&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=75&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?q=75&w=1200&auto=format&fit=crop"
+    ],
+    "contact.html": [
+      "https://images.unsplash.com",
+      "https://images.unsplash.com",
+      "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?q=75&w=1200&auto=format&fit=crop"
+    ],
+    "thank-you.html": [
+      "https://images.unsplash.com/",
+      "https://images.unsplash.com/"
+    ],
+    "privacy-policy.html": [
+      "https://images.unsplash.com",
+      "https://images.unsplash.com"
+    ],
+    "terms.html": [
+      "https://images.unsplash.com",
+      "https://images.unsplash.com"
+    ],
+    "financing-disclaimer.html": [
+      "https://images.unsplash.com",
+      "https://images.unsplash.com"
+    ]
+  }
+}

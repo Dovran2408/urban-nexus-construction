@@ -1,0 +1,11 @@
+Urban Nexus Construction — Final Photos + Mobile + Forms QA
+
+STATUS: PASS
+Processed files: 16
+Assets copied: 25
+Missing asset refs: 0
+file:/// pages: 0
+Missing internal links: 0
+Thank-you missing core links: 0
+Mobile fix pages: 12
+Forms fixed: {'index.html': {'has_api_leads': True, 'old_get_action_removed': True, 'has_data_lead_form': True}, 'services.html': {'has_api_leads': True, 'old_get_action_removed': True, 'has_data_lead_form': True}, 'contact.html': {'has_api_leads': True, 'old_get_action_removed': True, 'has_data_lead_form': True}}

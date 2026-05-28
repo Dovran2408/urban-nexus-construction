@@ -901,6 +901,57 @@ footer .footer-brand-final,
 .hero .eyebrow{
   text-shadow:0 3px 18px rgba(0,0,0,.72), 0 1px 2px rgba(0,0,0,.75) !important;
 }
+
+/* =========================================================
+   FINAL GLOBAL MOBILE RESPONSIVE FIX — URBAN NEXUS
+   ========================================================= */
+html,body{width:100%!important;max-width:100%!important;overflow-x:hidden!important}
+*{box-sizing:border-box}
+img,video,iframe{max-width:100%!important;height:auto}
+@media(max-width:900px){
+body{overflow-x:hidden!important}
+.site,.page{width:100%!important;max-width:100%!important;margin:0!important;box-shadow:none!important;overflow-x:hidden!important}
+.topbar,.top,.social{display:none!important}
+.header{height:auto!important;min-height:86px!important;padding:18px 18px!important;display:flex!important;align-items:center!important;justify-content:space-between!important;gap:12px!important;flex-wrap:nowrap!important;overflow:hidden!important}
+.header>div:first-child,.header .brand-block{min-width:0!important;max-width:230px!important;flex:1 1 auto!important;text-align:left!important}
+.logo-main{font-size:25px!important;line-height:1!important;letter-spacing:-.03em!important;white-space:nowrap!important;text-align:left!important}
+.logo-sub,.logo-sub-final{display:block!important;font-size:9px!important;line-height:1.1!important;letter-spacing:.35em!important;padding-left:.35em!important;text-align:center!important;margin-top:7px!important;white-space:nowrap!important}
+.nav,.header .nav{display:none!important}
+.call-btn{display:inline-flex!important;align-items:center!important;justify-content:center!important;flex:0 0 auto!important;white-space:nowrap!important;font-size:12px!important;line-height:1!important;padding:10px 12px!important}
+.hero{min-height:auto!important;height:auto!important;padding:0!important;background-position:center center!important}
+.hero::before,.hero:before{background:linear-gradient(90deg,rgba(0,0,0,.78),rgba(0,0,0,.56),rgba(0,0,0,.32))!important}
+.hero-content{width:100%!important;max-width:100%!important;padding:54px 24px 58px!important;margin:0!important;border-left:none!important}
+h1,.hero h1{font-size:clamp(34px,10vw,46px)!important;line-height:.96!important;letter-spacing:-.04em!important;max-width:100%!important;overflow-wrap:break-word!important;word-break:normal!important;hyphens:auto!important}
+.hero p,p{max-width:100%!important;overflow-wrap:break-word!important}
+.hero p{font-size:16px!important;line-height:1.65!important}
+.eyebrow{font-size:10px!important;line-height:1.4!important;letter-spacing:.16em!important;overflow-wrap:break-word!important}
+.hero-badges,.badges{display:grid!important;grid-template-columns:1fr!important;gap:12px!important;font-size:13px!important}
+.actions,.buttons,.contact-actions{display:grid!important;grid-template-columns:1fr!important;gap:12px!important;width:100%!important}
+.btn,.btn-primary,.btn-dark,.btn-light,.btn-gold,button.btn-primary{width:100%!important;max-width:100%!important;text-align:center!important;padding:15px 18px!important;font-size:12px!important;line-height:1.2!important}
+.section,.section.light,.section.dark,.trust,.services,.reviews,.process,.next-steps{padding:44px 22px!important}
+.title{margin-bottom:28px!important}
+.title h2,.section h2,.before h2,.about h2,.finance h2,.cta h2{font-size:clamp(26px,8vw,34px)!important;line-height:1.08!important;overflow-wrap:break-word!important}
+.title p,.section p,.section li{font-size:15px!important;line-height:1.7!important}
+.trust-grid,.service-grid,.post-grid,.featured-grid,.process-grid,.review-grid,.footer-grid,.footer-contact-grid-final,.stats-row,.rating-band,.contact-layout,.direct-contact,.before,.about,.next-steps-grid,.project-grid,.case-grid,.article-grid{grid-template-columns:1fr!important;gap:20px!important}
+.form-grid{grid-template-columns:1fr!important}
+.form-grid>*,textarea,select,.full{grid-column:1/-1!important}
+.card img,.service-card img,.post-card img,.case-images img,.ba-images img{height:auto!important;min-height:210px!important;object-fit:cover!important}
+.about img,.direct-contact-image{min-height:260px!important;height:260px!important}
+.footer,footer,.footer-contact-final{padding:40px 22px 24px!important}
+footer h4,.footer h4{margin-top:8px!important}
+footer a,footer p,.footer a,.footer p,.footer-contact-text-final{font-size:13px!important;line-height:1.7!important}
+.footer-contact-company-two-cols,.footer-company-columns{grid-template-columns:1fr 1fr!important;gap:6px 18px!important;max-width:300px!important}
+}
+@media(max-width:480px){
+.header{min-height:78px!important;padding:16px 14px!important}
+.logo-main{font-size:22px!important}
+.logo-sub,.logo-sub-final{font-size:8px!important;letter-spacing:.32em!important;padding-left:.32em!important}
+.call-btn{font-size:11px!important;padding:9px 10px!important}
+.hero-content{padding:48px 20px 52px!important}
+h1,.hero h1{font-size:clamp(32px,11vw,40px)!important}
+.section,.section.light,.section.dark,.trust,.services,.reviews,.process,.next-steps{padding:38px 18px!important}
+}
+
 </style>
 <link href="https://urbannexus.nyc/services.html" rel="canonical"/>
 <meta content="NYC Renovation Services | Urban Nexus Construction" property="og:title"/>
@@ -1142,13 +1193,13 @@ footer .footer-brand-final,
 </div>
 <div class="form-box">
 <h3>Get Your Free Estimate</h3>
-<form action="thank-you.html" method="get">
+<form data-lead-form="true" data-source="Urban Nexus Construction Services Page">
 <div class="form-grid">
-<input _mstplaceholder="108303" placeholder="Full Name" type="text"/>
-<input _mstplaceholder="176917" placeholder="Phone Number" type="tel"/>
-<input _mstplaceholder="198861" class="full" placeholder="Email Address" type="email"/>
-<select>
-<option>Choose Service</option>
+<input name="name" placeholder="Full Name" required type="text"/>
+<input name="phone" placeholder="Phone Number" required type="tel"/>
+<input name="email" class="full" placeholder="Email Address" type="email"/>
+<select name="projectType" required>
+<option value="">Choose Service</option>
 <option>Kitchen Remodeling</option>
 <option>Bathroom Renovation</option>
 <option>Apartment Renovation</option>
@@ -1158,7 +1209,7 @@ footer .footer-brand-final,
 <option>Plumbing</option>
 <option>Exterior Renovation</option>
 </select>
-<textarea placeholder="Tell us about your project..."></textarea>
+<textarea name="message" placeholder="Tell us about your project..."></textarea>
 </div>
 <button class="btn-primary full" style="width:100%; margin-top:14px;" type="submit">Submit Request</button>
 </form>
@@ -1205,4 +1256,61 @@ footer .footer-brand-final,
       </div>
 </footer>
 </div>
+
+<script>
+(function () {
+  const form = document.querySelector('form[data-lead-form="true"]');
+  if (!form) return;
+
+  form.addEventListener("submit", async function (event) {
+    event.preventDefault();
+
+    const submitButton = form.querySelector('button[type="submit"], button');
+    const originalButtonText = submitButton ? submitButton.textContent : "Submit Request";
+
+    if (submitButton) {
+      submitButton.disabled = true;
+      submitButton.textContent = "Submitting...";
+    }
+
+    const payload = {
+      name: form.elements["name"]?.value || "",
+      phone: form.elements["phone"]?.value || "",
+      email: form.elements["email"]?.value || "",
+      address: form.elements["address"]?.value || "",
+      zip: form.elements["zip"]?.value || "",
+      projectType: form.elements["projectType"]?.value || "",
+      budget: form.elements["budget"]?.value || "",
+      timeline: form.elements["timeline"]?.value || "",
+      message: form.elements["message"]?.value || "",
+      source: form.getAttribute("data-source") || "Urban Nexus Construction Website",
+      page: window.location.pathname,
+      submittedAt: new Date().toISOString()
+    };
+
+    try {
+      const response = await fetch("/api/leads", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload)
+      });
+
+      if (!response.ok) {
+        throw new Error("Lead webhook failed");
+      }
+
+      window.location.href = "thank-you.html";
+    } catch (error) {
+      console.error("Lead submission failed:", error);
+      alert("Submission failed. Please call (347) 883-0909 or email info@urbannexus.nyc.");
+
+      if (submitButton) {
+        submitButton.disabled = false;
+        submitButton.textContent = originalButtonText;
+      }
+    }
+  });
+})();
+</script>
+
 </body></html>
